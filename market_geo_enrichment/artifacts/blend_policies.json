@@ -1,0 +1,89 @@
+{
+  "seeds": [
+    42
+  ],
+  "geo_model_policy": {
+    "name": "price_bands",
+    "validation_mae_rub": 1265595.9270206373,
+    "bands": [
+      {
+        "lower": 0.0,
+        "upper": 5000000.0,
+        "total_weight": 0.30888888888888894,
+        "validation_rows": 115
+      },
+      {
+        "lower": 5000000.0,
+        "upper": 8000000.0,
+        "total_weight": 0.2382018927444795,
+        "validation_rows": 297
+      },
+      {
+        "lower": 8000000.0,
+        "upper": 12000000.0,
+        "total_weight": 0.4617293233082707,
+        "validation_rows": 246
+      },
+      {
+        "lower": 12000000.0,
+        "upper": 20000000.0,
+        "total_weight": 0.3870443349753695,
+        "validation_rows": 183
+      },
+      {
+        "lower": 20000000.0,
+        "upper": 40000000.0,
+        "total_weight": 0.18,
+        "validation_rows": 90
+      },
+      {
+        "lower": 40000000.0,
+        "upper": null,
+        "total_weight": 0.36,
+        "validation_rows": 17
+      }
+    ]
+  },
+  "final_comparable_policy": {
+    "name": "price_bands",
+    "validation_mae_rub": 1172747.2619788654,
+    "bands": [
+      {
+        "lower": 0.0,
+        "upper": 5000000.0,
+        "comparable_weight": 0.10566929133858269,
+        "validation_rows": 107
+      },
+      {
+        "lower": 5000000.0,
+        "upper": 8000000.0,
+        "comparable_weight": 0.23761904761904765,
+        "validation_rows": 295
+      },
+      {
+        "lower": 8000000.0,
+        "upper": 12000000.0,
+        "comparable_weight": 0.21985915492957744,
+        "validation_rows": 264
+      },
+      {
+        "lower": 12000000.0,
+        "upper": 20000000.0,
+        "comparable_weight": 0.16142857142857142,
+        "validation_rows": 176
+      },
+      {
+        "lower": 20000000.0,
+        "upper": 40000000.0,
+        "comparable_weight": 0.513302752293578,
+        "validation_rows": 89
+      },
+      {
+        "lower": 40000000.0,
+        "upper": null,
+        "comparable_weight": 0.35000000000000003,
+        "validation_rows": 17
+      }
+    ]
+  }
+}
