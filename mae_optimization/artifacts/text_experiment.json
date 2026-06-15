@@ -1,0 +1,19 @@
+{
+  "accepted_by_validation": false,
+  "numbers_removed_from_text": true,
+  "selection": {
+    "alpha": 10.0,
+    "text_weight": 0.0,
+    "validation_mae_rub": 1333261.747024149,
+    "text_only_validation_mae_rub": 2449756.3287620586
+  },
+  "baseline_validation_mae_rub": 1333261.747024149,
+  "baseline_test_mae_rub": 1197757.1184524891,
+  "text_blend_test_mae_rub": 1197757.1184524891,
+  "text_only_test_mae_rub": 2190943.7410316896,
+  "rows": {
+    "train": 3789,
+    "valid": 948,
+    "test": 1185
+  }
+}

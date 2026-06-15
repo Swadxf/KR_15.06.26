@@ -1,0 +1,21 @@
+{
+  "clean_rows": 5922,
+  "near_duplicate_consistency": {
+    "same_address_rooms_area": {
+      "rows": 1340,
+      "coverage_pct": 22.627490712597094,
+      "leave_one_out_median_mae_rub": 440687.37985074625
+    },
+    "same_address_rooms_area_floor": {
+      "rows": 455,
+      "coverage_pct": 7.68321513002364,
+      "leave_one_out_median_mae_rub": 274434.84945054946
+    },
+    "interpretation": "Even nearly identical listings have substantial price dispersion; these figures are diagnostic proxies, not a formal lower bound."
+  },
+  "target_leakage_check": {
+    "rows": 5922,
+    "mae_rub": 212.98980749749583,
+    "warning": "price_m2_rub is calculated from the target and must not be used as a model feature"
+  }
+}

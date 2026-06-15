@@ -1,0 +1,50 @@
+{
+  "policy": {
+    "name": "price_bands",
+    "validation_mae_rub": 1333261.747024149,
+    "bands": [
+      {
+        "lower": 0.0,
+        "upper": 5000000.0,
+        "total_weight": 0.32014492753623186,
+        "validation_rows": 118
+      },
+      {
+        "lower": 5000000.0,
+        "upper": 8000000.0,
+        "total_weight": 0.4174921630094044,
+        "validation_rows": 299
+      },
+      {
+        "lower": 8000000.0,
+        "upper": 12000000.0,
+        "total_weight": 0.5094339622641509,
+        "validation_rows": 245
+      },
+      {
+        "lower": 12000000.0,
+        "upper": 20000000.0,
+        "total_weight": 0.37999999999999995,
+        "validation_rows": 179
+      },
+      {
+        "lower": 20000000.0,
+        "upper": 40000000.0,
+        "total_weight": 0.2652252252252252,
+        "validation_rows": 91
+      },
+      {
+        "lower": 40000000.0,
+        "upper": null,
+        "total_weight": 0.38,
+        "validation_rows": 16
+      }
+    ]
+  },
+  "seeds": [
+    42
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "valid_size": 0.16
+}

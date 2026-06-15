@@ -1,0 +1,14 @@
+{
+  "avito_rows": 4628,
+  "cian_rows": 1316,
+  "prepared_rows": 5944,
+  "prepared_columns": 179,
+  "osm_features_available": 5927,
+  "duplicate_source_ids": 0,
+  "raw_sha256": {
+    "avito_raw.csv": "2cfeeea1e6a74225975264297d202cdd63738f770fc8fa101df38d188a04271e",
+    "cian_raw.csv": "67a978996d5a147a585fd5f265b6b9d3ee3580ed1c3765e6dc5119ba55f3815f"
+  },
+  "price_m2_is_retained_for_audit_only": true,
+  "price_m2_is_never_used_as_a_model_feature": true
+}
