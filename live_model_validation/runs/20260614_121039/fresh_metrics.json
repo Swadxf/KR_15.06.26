@@ -1,0 +1,29 @@
+{
+  "parsed_rows": 88,
+  "predicted_rows": 88,
+  "skipped_rows": 0,
+  "model_training_max_price_rub": 40000000.0,
+  "all_predicted_rows": {
+    "mae_rub": 814860.6200981868,
+    "median_ae_rub": 643465.7265875218,
+    "rmse_rub": 1096245.567255295,
+    "mape_pct": 9.662879682424185,
+    "r2": 0.8459456033528714,
+    "bias_rub": 228928.7835729896,
+    "p90_abs_error_rub": 1625167.3754924843,
+    "p95_abs_error_rub": 1931420.8024884965
+  },
+  "within_training_range": {
+    "mae_rub": 814860.6200981868,
+    "median_ae_rub": 643465.7265875218,
+    "rmse_rub": 1096245.567255295,
+    "mape_pct": 9.662879682424185,
+    "r2": 0.8459456033528714,
+    "bias_rub": 228928.7835729896,
+    "p90_abs_error_rub": 1625167.3754924843,
+    "p95_abs_error_rub": 1931420.8024884965
+  },
+  "outside_training_range_rows": 0,
+  "predictions_csv": "E:\\CR\\live_model_validation\\runs\\20260614_121039\\fresh_predictions.csv",
+  "parser_errors": {}
+}
