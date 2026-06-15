@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-06-14",
+  "model_scope": "price_rub <= 40000000",
+  "test_mae_rub": 873985.2011503146,
+  "test_median_ae_rub": 453503.18368243985,
+  "files": {
+    "blend_policies.json": {
+      "sha256": "e2c69736824ab02c4ad994e04e7efabca54bb13af4e7fb10cddab0228a0fa24b",
+      "size_bytes": 2135
+    },
+    "comparables_reference.csv": {
+      "sha256": "411bc922a73c2f239a7e1ff294cb1e427034acffa132915bdf63cb09b05c97d3",
+      "size_bytes": 1118079
+    },
+    "feature_config.json": {
+      "sha256": "4a6be4480688e3bfd20bede801b304e28ab67e17dfdb2f79ac701e2fe0dc02ba",
+      "size_bytes": 13060
+    },
+    "osm_pois.csv": {
+      "sha256": "9009defba3f4c8365047812f651f53345ca1323ec29bb1bb0821872631f0a4a9",
+      "size_bytes": 4945522
+    },
+    "total_price_seed_42.cbm": {
+      "sha256": "4c5b898c61375b02d6218fc86eea73464f76b34f9d7f5c67425270a7fa1dfb43",
+      "size_bytes": 1501440
+    },
+    "unit_price_seed_42.cbm": {
+      "sha256": "e6e129edccfbe94cbb52833891afc919ccba4af86599fc77b07b933905a5b0cd",
+      "size_bytes": 1647600
+    }
+  }
+}
