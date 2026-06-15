@@ -1,0 +1,20 @@
+{
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "allow_writing_files": false,
+  "verbose": false,
+  "thread_count": -1,
+  "task_type": "CPU",
+  "iterations": 616,
+  "depth": 7,
+  "learning_rate": 0.1191256492987059,
+  "l2_leaf_reg": 2.133920876637657,
+  "random_strength": 2.30813654846792,
+  "max_ctr_complexity": 2,
+  "one_hot_max_size": 15,
+  "border_count": 154,
+  "min_data_in_leaf": 23,
+  "bootstrap_type": "Bayesian",
+  "bagging_temperature": 1.7008877773277957
+}
