@@ -1,0 +1,90 @@
+{
+  "max_price_rub": 40000000.0,
+  "seeds": [
+    42
+  ],
+  "geo_model_policy": {
+    "name": "price_bands",
+    "validation_mae_rub": 963167.0999600521,
+    "bands": [
+      {
+        "lower": 0.0,
+        "upper": 5000000.0,
+        "total_weight": 0.22741007194244603,
+        "validation_rows": 119
+      },
+      {
+        "lower": 5000000.0,
+        "upper": 8000000.0,
+        "total_weight": 0.45,
+        "validation_rows": 290
+      },
+      {
+        "lower": 8000000.0,
+        "upper": 12000000.0,
+        "total_weight": 0.32037037037037036,
+        "validation_rows": 250
+      },
+      {
+        "lower": 12000000.0,
+        "upper": 20000000.0,
+        "total_weight": 0.5764734299516908,
+        "validation_rows": 187
+      },
+      {
+        "lower": 20000000.0,
+        "upper": 40000000.0,
+        "total_weight": 0.42571428571428566,
+        "validation_rows": 85
+      },
+      {
+        "lower": 40000000.0,
+        "upper": null,
+        "total_weight": 0.45,
+        "validation_rows": 0
+      }
+    ]
+  },
+  "final_comparable_policy": {
+    "name": "price_bands",
+    "validation_mae_rub": 926384.1860832843,
+    "bands": [
+      {
+        "lower": 0.0,
+        "upper": 5000000.0,
+        "comparable_weight": 0.032,
+        "validation_rows": 105
+      },
+      {
+        "lower": 5000000.0,
+        "upper": 8000000.0,
+        "comparable_weight": 0.25627329192546583,
+        "validation_rows": 302
+      },
+      {
+        "lower": 8000000.0,
+        "upper": 12000000.0,
+        "comparable_weight": 0.2092779783393502,
+        "validation_rows": 257
+      },
+      {
+        "lower": 12000000.0,
+        "upper": 20000000.0,
+        "comparable_weight": 0.07414141414141413,
+        "validation_rows": 178
+      },
+      {
+        "lower": 20000000.0,
+        "upper": 40000000.0,
+        "comparable_weight": 0.3466666666666666,
+        "validation_rows": 88
+      },
+      {
+        "lower": 40000000.0,
+        "upper": null,
+        "comparable_weight": 0.2,
+        "validation_rows": 1
+      }
+    ]
+  }
+}
